@@ -21,6 +21,7 @@
     "@vaadin/common-frontend": "0.0.17",
     "@vaadin/component-base": "23.1.6",
     "@vaadin/context-menu": "23.1.6",
+    "@vaadin/cookie-consent": "23.1.6",
     "@vaadin/custom-field": "23.1.6",
     "@vaadin/date-picker": "23.1.6",
     "@vaadin/date-time-picker": "23.1.6",
@@ -66,6 +67,7 @@
     "@vaadin/vaadin-checkbox": "23.1.6",
     "@vaadin/vaadin-combo-box": "23.1.6",
     "@vaadin/vaadin-context-menu": "23.1.6",
+    "@vaadin/vaadin-cookie-consent": "23.1.6",
     "@vaadin/vaadin-custom-field": "23.1.6",
     "@vaadin/vaadin-date-picker": "23.1.6",
     "@vaadin/vaadin-date-time-picker": "23.1.6",
@@ -149,6 +151,7 @@
       "@vaadin/common-frontend": "0.0.17",
       "@vaadin/component-base": "23.1.6",
       "@vaadin/context-menu": "23.1.6",
+      "@vaadin/cookie-consent": "23.1.6",
       "@vaadin/custom-field": "23.1.6",
       "@vaadin/date-picker": "23.1.6",
       "@vaadin/date-time-picker": "23.1.6",
@@ -193,6 +196,7 @@
       "@vaadin/vaadin-checkbox": "23.1.6",
       "@vaadin/vaadin-combo-box": "23.1.6",
       "@vaadin/vaadin-context-menu": "23.1.6",
+      "@vaadin/vaadin-cookie-consent": "23.1.6",
       "@vaadin/vaadin-custom-field": "23.1.6",
       "@vaadin/vaadin-date-picker": "23.1.6",
       "@vaadin/vaadin-date-time-picker": "23.1.6",
@@ -255,7 +259,7 @@
       "workbox-precaching": "6.5.0",
       "workbox-webpack-plugin": "6.5.0"
     },
-    "hash": "129ce91624e06f316c7dcfde5d2500c6514063a79aa88fdc1d70f3cb4449ea91"
+    "hash": "7578734bd69094b478b68663dda2b0813a6df117f9832daa81586ff4584033c3"
   },
   "overrides": {
     "@vaadin/bundles": "$@vaadin/bundles",
@@ -357,6 +361,10 @@
     "construct-style-sheets-polyfill": "$construct-style-sheets-polyfill",
     "lit": "$lit",
     "@polymer/polymer": "$@polymer/polymer",
-    "chokidar": "$chokidar"
+    "chokidar": "$chokidar",
+    "@f0rce/lit-ace": "$@f0rce/lit-ace",
+    "date-fns": "$date-fns",
+    "@vaadin/cookie-consent": "$@vaadin/cookie-consent",
+    "@vaadin/vaadin-cookie-consent": "$@vaadin/vaadin-cookie-consent"
   }
 }
