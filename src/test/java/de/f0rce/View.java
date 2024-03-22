@@ -118,11 +118,14 @@ public class View extends VerticalLayout implements AppShellConfigurator {
             + "test");
 
     ArrayList<String> custom = new ArrayList<String>();
-    custom.add("JSON");
-    custom.add("ist");
-    custom.add("eine");
-    custom.add("coole");
-    custom.add("Sache");
+    custom.add("REGISTER");
+    custom.add("QUERY");
+    custom.add("MATCH");
+    custom.add("WHERE");
+    custom.add("EMIT");
+    custom.add("SNAPSHOT");
+    custom.add("EVERY");
+    custom.add("EMIT");
 
     aceEditor.setCustomAutocompletion(custom, "JSONTest", true);
 
